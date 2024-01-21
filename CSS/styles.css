@@ -1,0 +1,161 @@
+body {
+    user-select: text;
+    margin:0;
+    padding:0;
+    background-color: aliceblue;
+    font-family: 'Playfair Display', serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    width: 100%;
+    height: 8%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+.logoup {
+    width: 11%;
+    height: 95%;
+    align-items: center;
+    margin: 1px;
+    object-fit: scale-down;
+    margin-left: 2%;
+}
+
+.imgcontenedor {
+    max-width: 100%;
+    height: 1000px;
+}
+
+.logocenter {
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img1 {
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Contenido bajo el grid */
+.slogan {
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slogan p {
+    color: #97ac9f;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    font-family: aktiv-grotesk-extended,aktiv-grotesk,Antonio,Helvetica,Arial,sans-serif;
+}
+
+.menucontenedor {
+    margin-top: -1rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.servicio {
+    color: white;
+    background-color: blueviolet;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 40%;
+}
+
+.resena{
+    color: white;
+    background-color: blue;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 40%;
+}
+
+.portafolio {
+    color: black;
+    background-color: yellow;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 40%;
+}
+
+.detalles {
+    color: white;
+    background-color: red;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 40%;
+}
+
+
+
+
+
+
+/* RESPONSIVE DESIGNE PARA TELEFONOS */
+@media screen and (max-width: 1000px) {
+
+
+    .dividir {
+        background-color: red;
+    }
+
+    .imgcontenedor {
+        height: 1000px;
+        width: 100%;
+    }
+
+    .img1 {
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 8%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .logoup{
+        width: 100%;
+        height: 95%;
+        align-items: center;
+        margin: 2%;
+        margin-left: 0;
+    }
+
+    .logocenter {
+        width: 95%;
+        height: 16%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
